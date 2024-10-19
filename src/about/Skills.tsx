@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <Box sx={{ padding: "0rem 4rem" }}>
         <Box sx={{padding:'1rem 0rem', border:'1px solid #707070', borderRadius: '1rem'}}>
-        <Typography variant='h6' sx={{color:'#e3e3e3', paddingLeft:'2rem', fontFamily:'Poppins-Medium' ,fontSize:'2rem'}} align='left' > CORE SKILLS</Typography>
+        <Typography variant='h6' sx={{color:'#e3e3e3', paddingLeft:'2rem', fontFamily:'Poppins-Medium' ,fontSize:'1.1rem'}} align='left' > CORE SKILLS</Typography>
       <Box
         sx={{
           display: "flex",
@@ -27,7 +27,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "#d52e2e" }}
+              sx={{ color: "#d52e2e", fontFamily:'Poppins-Semibold',fontSize:'1.1rem' }}
             >{`80%`}</Typography>
           </Box>
         </Box>
@@ -54,7 +54,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "#d52e2e" }}
+              sx={{ color: "#d52e2e", fontFamily:'Poppins-Semibold',fontSize:'1.1rem' }}
             >{`75%`}</Typography>
           </Box>
         </Box>
@@ -81,7 +81,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "#d52e2e" }}
+              sx={{ color: "#d52e2e", fontFamily:'Poppins-Semibold',fontSize:'1.1rem' }}
             >{`70%`}</Typography>
           </Box>
         </Box>
@@ -108,7 +108,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "#d52e2e" }}
+              sx={{ color: "#d52e2e", fontFamily:'Poppins-Semibold',fontSize:'1.1rem' }}
             >{`70%`}</Typography>
           </Box>
         </Box>
@@ -135,7 +135,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "#d52e2e" }}
+              sx={{ color: "#d52e2e", fontFamily:'Poppins-Semibold',fontSize:'1.1rem' }}
             >{`75%`}</Typography>
           </Box>
         </Box>
@@ -162,7 +162,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "#d52e2e" }}
+              sx={{ color: "#d52e2e", fontFamily:'Poppins-Semibold',fontSize:'1.1rem' }}
             >{`70%`}</Typography>
           </Box>
         </Box>
@@ -189,7 +189,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "#d52e2e" }}
+              sx={{ color: "#d52e2e", fontFamily:'Poppins-Semibold',fontSize:'1.1rem' }}
             >{`80%`}</Typography>
           </Box>
         </Box>

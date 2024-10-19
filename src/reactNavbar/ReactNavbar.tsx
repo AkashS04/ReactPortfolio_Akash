@@ -31,12 +31,12 @@ const Navtexttheme = createTheme({
   },
 });
 function ReactNavbar() {
-  const [navHover, setNavHover] = useState(false);
+  // const [navHover, setNavHover] = useState(false);
 
   return (
     <div
-      onMouseEnter={() => setNavHover(true)}
-      onMouseLeave={() => setNavHover(false)}
+      // onMouseEnter={() => setNavHover(true)}
+      // onMouseLeave={() => setNavHover(false)}
       className="reactNavbar-main"
     >
       <Box
@@ -44,7 +44,7 @@ function ReactNavbar() {
         sx={{ height: "60px", cursor: "pointer", alt: "react-logo" }}
         src={reactLogo}
       />
-      {navHover && (
+      {/* {navHover && ( */}
         <Box
           sx={{
             width: "500px",
@@ -57,9 +57,9 @@ function ReactNavbar() {
             <Box
               sx={{
                 transition: "transform 1s ease",
-                transform: navHover
-                  ? "translate(0px, 20px)"
-                  : "translate(0px,0px)",
+                // transform: navHover
+                //   ? "translate(0px, 20px)"
+                //   : "translate(0px,0px)",
               }}
             >
               <Paper>
@@ -68,9 +68,9 @@ function ReactNavbar() {
             </Box>
             <Box     sx={{
                 transition: "transform 1.3s ease",
-                transform: navHover
-                  ? "translate(0px, 20px)"
-                  : "translate(0px, 0px)",
+                // transform: navHover
+                //   ? "translate(0px, 20px)"
+                //   : "translate(0px, 0px)",
               }}>
               <Paper>
                 <Typography variant="body1">Why Choose Me</Typography>
@@ -78,9 +78,9 @@ function ReactNavbar() {
             </Box>
             <Box     sx={{
                 transition: "transform 1.6s ease",
-                transform: navHover
-                  ? "translate(0px, 20px)"
-                  : "translate(0px, 0px)",
+                // transform: navHover
+                //   ? "translate(0px, 20px)"
+                //   : "translate(0px, 0px)",
               }}>
               <Paper>
                 <Typography variant="body1">Projects</Typography>
@@ -88,9 +88,9 @@ function ReactNavbar() {
             </Box>
             <Box     sx={{
                 transition: "transform 1.9s ease",
-                transform: navHover
-                  ? "translate(0px, 20px)"
-                  : "translate(0px, 0px)",
+                // transform: navHover
+                //   ? "translate(0px, 20px)"
+                //   : "translate(0px, 0px)",
               }}>
               <Paper>
                 <Typography variant="body1">Contact</Typography>
@@ -98,7 +98,7 @@ function ReactNavbar() {
             </Box>
           </ThemeProvider>
         </Box>
-      )}
+      {/* )} */}
     </div>
   );
 }
