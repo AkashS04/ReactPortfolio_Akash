@@ -1,4 +1,5 @@
 import { Box, Typography } from "@mui/material";
+import Skills from "./Skills";
 
 function About() {
   return (
@@ -29,6 +30,7 @@ function About() {
             Having better skills with modern web technologies
           </Typography>
         </Box>
+        <Skills/>
       </Box>
     </>
   );

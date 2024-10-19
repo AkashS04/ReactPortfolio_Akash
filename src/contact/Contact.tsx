@@ -6,8 +6,10 @@ import linkedIN from "../assets/icons/linkedin.png";
 
 function Contact() {
   return (
-    <Box sx={{ borderTop:'0.5px solid #121212' ,padding:'.5rem 0rem 4rem 0rem'}}>
-      <Box sx={{  width: "auto", padding: "0rem 4rem" }}>
+    <Box
+      sx={{ borderTop: "1px solid #121212", padding: ".5rem 0rem 4rem 0rem" }}
+    >
+      <Box sx={{ width: "auto", padding: "0rem 4rem" }}>
         <Box>
           <Typography
             variant="h5"
@@ -18,32 +20,43 @@ function Contact() {
             CONTACT
           </Typography>
         </Box>
-        <Box sx={{display:'flex', flexWrap:'wrap'}}>
+        <Box
+          sx={{
+            display: "flex",
+            flexWrap: "wrap",
+            width: "100%",
+            justifyContent: "space-around",
+            padding: "2rem 0rem",
+            border: "1px solid #121212",
+            borderRadius: ".5rem",
+            boxShadow: " rgb(131 38 38 / 14%) 0px 2px 8px 0px",
+          }}
+        >
           <Box>
             <Box
               component="img"
-              sx={{ height: "30px", width: "auto" }}
+              sx={{ height: "100px", width: "auto" }}
               src={phone}
             />
           </Box>
           <Box>
             <Box
               component="img"
-              sx={{ height: "30px", width: "auto" }}
+              sx={{ height: "100px", width: "auto" }}
               src={email}
             />
           </Box>
           <Box>
             <Box
               component="img"
-              sx={{ height: "30px", width: "auto" }}
+              sx={{ height: "100px", width: "auto" }}
               src={whatsApp}
             />
           </Box>
           <Box>
             <Box
               component="img"
-              sx={{ height: "30px", width: "auto" }}
+              sx={{ height: "100px", width: "auto" }}
               src={linkedIN}
             />
           </Box>
