@@ -1,47 +1,55 @@
 import { Box, Typography } from "@mui/material";
+import phone from "../assets/icons/phone.png";
+import email from "../assets/icons/gmail.png";
+import whatsApp from "../assets/icons/whatsapp.png";
+import linkedIN from "../assets/icons/linkedin.png";
 
 function Contact() {
   return (
-    <>
-      <Box sx={{ width: "auto" }}>
+    <Box sx={{ borderTop:'0.5px solid #121212' ,padding:'.5rem 0rem 4rem 0rem'}}>
+      <Box sx={{  width: "auto", padding: "0rem 4rem" }}>
         <Box>
           <Typography
-            variant="h3"
+            variant="h5"
+            align="left"
             sx={{ color: "#FF0303", fontFamily: "Poppins-Bold", mt: "1rem" }}
             gutterBottom
           >
             CONTACT
           </Typography>
         </Box>
-        <Box>
+        <Box sx={{display:'flex', flexWrap:'wrap'}}>
           <Box>
-            <Typography variant="body1" sx={{color:'white', fontFamily:'Poppins-Medium'}} gutterBottom>
-              Phone
-            </Typography>
+            <Box
+              component="img"
+              sx={{ height: "30px", width: "auto" }}
+              src={phone}
+            />
           </Box>
           <Box>
-            <Typography variant="body1" sx={{color:'white', fontFamily:'Poppins-Medium'}} gutterBottom>
-              Email
-            </Typography>
+            <Box
+              component="img"
+              sx={{ height: "30px", width: "auto" }}
+              src={email}
+            />
           </Box>
           <Box>
-            <Typography variant="body1" sx={{color:'white', fontFamily:'Poppins-Medium'}} gutterBottom>
-              WhatsApp
-            </Typography>
+            <Box
+              component="img"
+              sx={{ height: "30px", width: "auto" }}
+              src={whatsApp}
+            />
           </Box>
           <Box>
-            <Typography variant="body1" sx={{color:'white', fontFamily:'Poppins-Medium'}} gutterBottom>
-              LinkedIn
-            </Typography>
-          </Box>
-          <Box>
-            <Typography variant="body1" sx={{color:'white', fontFamily:'Poppins-Medium'}} gutterBottom>
-              Naukri
-            </Typography>
+            <Box
+              component="img"
+              sx={{ height: "30px", width: "auto" }}
+              src={linkedIN}
+            />
           </Box>
         </Box>
       </Box>
-    </>
+    </Box>
   );
 }
 export default Contact;

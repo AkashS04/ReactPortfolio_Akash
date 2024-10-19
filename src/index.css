@@ -37,6 +37,8 @@
 #root {
   margin: 0;
   padding: 0;
+  width:100% !important;
+  max-width: 100%;
 }
 body {
   margin: 0;
@@ -45,7 +47,6 @@ body {
 }
 .swipermain {
   height: 100vh;
-  width: 98.75vw !important;
 }
 .swipermain::after{
   content: '';
@@ -75,10 +76,10 @@ body {
   margin: 0;
 }
 
-.reactNavbar{
+/* .reactNavbar{
   height: 60px;
   cursor: pointer;
-}
+} */
 .reactNavbar-main{
   position: absolute;
   top:365px;
