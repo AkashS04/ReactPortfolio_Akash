@@ -7,7 +7,7 @@ function About() {
       <Box sx={{ width: "100%" }}>
         <Typography
           variant="h3"
-          sx={{ color: "#FF0303", fontFamily: "Poppins-Bold", mt: "1rem" }}
+          sx={{ color: "#d52e2e", fontFamily: "Poppins-Bold", mt: "1rem" }}
           gutterBottom
         >
           ABOUT
@@ -16,7 +16,7 @@ function About() {
           <Typography
             variant="h4"
             align="left"
-            sx={{ fontFamily: "Poppins-Regular", color: "#fff" }}
+            sx={{ fontFamily: "Poppins-Regular", color: "#e3e3e3" }}
             gutterBottom
           >
             Hello, I'm Akash,Front-end Developer in India.
@@ -24,7 +24,7 @@ function About() {
           <Typography
             variant="h5"
             align="left"
-            sx={{ fontFamily: "Raleway-Extralight", color: "#fff" }}
+            sx={{ fontFamily: "Raleway-Extralight", color: "#e3e3e3" }}
             gutterBottom
           >
             Having better skills with modern web technologies

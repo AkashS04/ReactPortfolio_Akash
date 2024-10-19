@@ -35,7 +35,7 @@ function Title() {
         <Typography
           variant="h1"
           sx={{
-            color: "white",
+            color: "#e3e3e3",
             fontSize: {
               lg: "6rem",
               md: "4rem",
@@ -49,7 +49,7 @@ function Title() {
           Hi there, This is Akash
         </Typography>
         <Typography variant="h2" sx={{
-            color: "white",
+            color: "#e3e3e3",
             fontSize: {
               lg: "4rem",
               md: "3rem",

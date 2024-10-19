@@ -6,10 +6,10 @@ const Navtexttheme = createTheme({
   typography: {
     body1: {
       fontFamily: "Raleway-Regular",
-      color: "white",
+      color: "#c9c9c9",
       transition: "0.3s",
       "&:hover": {
-        color: "#a5a5a5",
+        color: "#e3e3e3",
       },
     },
   },
@@ -17,13 +17,13 @@ const Navtexttheme = createTheme({
     MuiPaper: {
       styleOverrides: {
         root: {
-          backgroundColor: "rgba(0, 0, 0, 0.4)",
+          backgroundColor: "rgb(36 36 36)",
           borderRadius: "8px",
-          padding: "4px 8px",
+          padding: "8px 16px",
           cursor: "pointer",
           transition: "0.3s",
           "&:hover": {
-            backgroundColor: "rgba(0, 0, 0, 0.8)",
+            backgroundColor: "rgb(48 48 48)",
           },
         },
       },

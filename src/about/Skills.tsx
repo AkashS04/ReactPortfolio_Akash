@@ -3,20 +3,20 @@ import LinearProgress from "@mui/material/LinearProgress";
 const Skills = () => {
   return (
     <Box sx={{ padding: "0rem 4rem" }}>
-        <Box sx={{padding:'1rem 0rem', border:'1px solid #121212', borderRadius: '1rem'}}>
-        <Typography variant='h6' sx={{color:'#ffffff', paddingLeft:'2rem', fontFamily:'Poppins-Medium' ,fontSize:'2rem'}} align='left' > CORE SKILLS</Typography>
+        <Box sx={{padding:'1rem 0rem', border:'1px solid #707070', borderRadius: '1rem'}}>
+        <Typography variant='h6' sx={{color:'#e3e3e3', paddingLeft:'2rem', fontFamily:'Poppins-Medium' ,fontSize:'2rem'}} align='left' > CORE SKILLS</Typography>
       <Box
         sx={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "#352b2b94",
+          backgroundColor: "#48484894",
           padding: "1rem 2rem 3rem 2rem",
           borderRadius: "1rem",
           margin: "1rem",
         }}
       >
         <Box>
-          <Typography variant="h5"  sx={{color:'white', fontFamily: 'Raleway-Regular'}} align="left">
+          <Typography variant="h5"  sx={{color:'#e3e3e3', fontFamily: 'Raleway-Regular'}} align="left">
             HTML
           </Typography>
         </Box>
@@ -27,7 +27,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "red" }}
+              sx={{ color: "#d52e2e" }}
             >{`80%`}</Typography>
           </Box>
         </Box>
@@ -36,14 +36,14 @@ const Skills = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "#352b2b94",
+          backgroundColor: "#48484894",
           padding: "1rem 2rem 3rem 2rem",
           borderRadius: "1rem",
           margin: "1rem",
         }}
       >
         <Box>
-          <Typography variant="h5"  sx={{color:'white', fontFamily: 'Raleway-Regular'}} align="left">
+          <Typography variant="h5"  sx={{color:'#e3e3e3', fontFamily: 'Raleway-Regular'}} align="left">
             CSS
           </Typography>
         </Box>
@@ -54,7 +54,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "red" }}
+              sx={{ color: "#d52e2e" }}
             >{`75%`}</Typography>
           </Box>
         </Box>
@@ -63,14 +63,14 @@ const Skills = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "#352b2b94",
+          backgroundColor: "#48484894",
           padding: "1rem 2rem 3rem 2rem",
           borderRadius: "1rem",
           margin: "1rem",
         }}
       >
         <Box>
-          <Typography variant="h5"  sx={{color:'white', fontFamily: 'Raleway-Regular'}} align="left">
+          <Typography variant="h5"  sx={{color:'#e3e3e3', fontFamily: 'Raleway-Regular'}} align="left">
             JavaScript
           </Typography>
         </Box>
@@ -81,7 +81,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "red" }}
+              sx={{ color: "#d52e2e" }}
             >{`70%`}</Typography>
           </Box>
         </Box>
@@ -90,14 +90,14 @@ const Skills = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "#352b2b94",
+          backgroundColor: "#48484894",
           padding: "1rem 2rem 3rem 2rem",
           borderRadius: "1rem",
           margin: "1rem",
         }}
       >
         <Box>
-          <Typography variant="h5"  sx={{color:'white', fontFamily: 'Raleway-Regular'}} align="left">
+          <Typography variant="h5"  sx={{color:'#e3e3e3', fontFamily: 'Raleway-Regular'}} align="left">
             TypeScript
           </Typography>
         </Box>
@@ -108,7 +108,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "red" }}
+              sx={{ color: "#d52e2e" }}
             >{`70%`}</Typography>
           </Box>
         </Box>
@@ -117,14 +117,14 @@ const Skills = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "#352b2b94",
+          backgroundColor: "#48484894",
           padding: "1rem 2rem 3rem 2rem",
           borderRadius: "1rem",
           margin: "1rem",
         }}
       >
         <Box>
-          <Typography variant="h5"  sx={{color:'white', fontFamily: 'Raleway-Regular'}} align="left">
+          <Typography variant="h5"  sx={{color:'#e3e3e3', fontFamily: 'Raleway-Regular'}} align="left">
             React
           </Typography>
         </Box>
@@ -135,7 +135,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "red" }}
+              sx={{ color: "#d52e2e" }}
             >{`75%`}</Typography>
           </Box>
         </Box>
@@ -144,14 +144,14 @@ const Skills = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "#352b2b94",
+          backgroundColor: "#48484894",
           padding: "1rem 2rem 3rem 2rem",
           borderRadius: "1rem",
           margin: "1rem",
         }}
       >
         <Box>
-          <Typography variant="h5"  sx={{color:'white', fontFamily: 'Raleway-Regular'}} align="left">
+          <Typography variant="h5"  sx={{color:'#e3e3e3', fontFamily: 'Raleway-Regular'}} align="left">
             Material-UI
           </Typography>
         </Box>
@@ -162,7 +162,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "red" }}
+              sx={{ color: "#d52e2e" }}
             >{`70%`}</Typography>
           </Box>
         </Box>
@@ -171,14 +171,14 @@ const Skills = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "#352b2b94",
+          backgroundColor: "#48484894",
           padding: "1rem 2rem 3rem 2rem",
           borderRadius: "1rem",
           margin: "1rem",
         }}
       >
         <Box>
-          <Typography variant="h5"  sx={{color:'white', fontFamily: 'Raleway-Regular'}} align="left">
+          <Typography variant="h5"  sx={{color:'#e3e3e3', fontFamily: 'Raleway-Regular'}} align="left">
             Bootstrap
           </Typography>
         </Box>
@@ -189,7 +189,7 @@ const Skills = () => {
           <Box sx={{ minWidth: 35 }}>
             <Typography
               variant="body2"
-              sx={{ color: "red" }}
+              sx={{ color: "#d52e2e" }}
             >{`80%`}</Typography>
           </Box>
         </Box>
