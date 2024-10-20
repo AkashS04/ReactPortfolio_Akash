@@ -72,8 +72,8 @@ const Project = () => {
                   top: "0px",
                   left: "0px",
                   borderRadius: "1rem",
-                  backgroundColor: "rgb(0,0,0,0.5)",
-                  transition: "transform 0.3s ease",
+                  backgroundColor: "rgb(0 0 0 / 38%)",
+                  transition: "transform 0.350s ease",
                 },
                 "&:hover::after": {
                   transform: "translate(370px, 500px)",
