@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
-import phone from "../assets/icons/phone.png";
-import email from "../assets/icons/gmail.png";
+import phone from "../assets/icons/phone-call.png";
+import email from "../assets/icons/email.png";
 import whatsApp from "../assets/icons/whatsapp.png";
 import linkedIN from "../assets/icons/linkedin.png";
 
@@ -35,28 +35,32 @@ function Contact() {
           <Box>
             <Box
               component="img"
-              sx={{ height: "100px", width: "auto" }}
+              sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
+                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)", }}
               src={phone}
             />
           </Box>
           <Box>
             <Box
               component="img"
-              sx={{ height: "100px", width: "auto" }}
+              sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
+                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)", }}
               src={email}
             />
           </Box>
           <Box>
             <Box
               component="img"
-              sx={{ height: "100px", width: "auto" }}
+              sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
+                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)", }}
               src={whatsApp}
             />
           </Box>
           <Box>
             <Box
               component="img"
-              sx={{ height: "100px", width: "auto" }}
+              sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
+                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)", }}
               src={linkedIN}
             />
           </Box>
