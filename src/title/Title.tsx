@@ -42,7 +42,7 @@ function Title() {
               sm: "3rem",
               xs: "2rem",
             },
-            fontFamily:'Poppins-Regular'
+            fontFamily:'Raleway-Regular'
           }}
           gutterBottom
         >

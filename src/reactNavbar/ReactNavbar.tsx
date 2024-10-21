@@ -19,8 +19,9 @@ const Navtexttheme = createTheme({
         root: {
           backgroundColor: "rgb(36 36 36)",
           borderRadius: "8px",
-          padding: "8px 16px",
+          padding: "12px 16px",
           cursor: "pointer",
+          width: '124px' ,
           transition: "0.3s",
           "&:hover": {
             backgroundColor: "rgb(48 48 48)",
@@ -47,10 +48,12 @@ function ReactNavbar() {
       {/* {navHover && ( */}
         <Box
           sx={{
-            width: "500px",
+            width: "800px",
             display: "flex",
             flexWrap: "wrap",
-            justifyContent: "space-around",
+            justifyContent:'center',
+            gap:'2rem',
+            marginTop: '2rem'
           }}
         >
           <ThemeProvider theme={Navtexttheme}>
