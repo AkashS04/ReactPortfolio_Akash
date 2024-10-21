@@ -5,6 +5,22 @@ import whatsApp from "../assets/icons/whatsapp.png";
 import linkedIN from "../assets/icons/linkedin.png";
 
 function Contact() {
+  const clickCall = (value: any) => {
+    if (value == 1) {
+      window.location.href = "tel:+91 7448941714";
+    } else if (value == 2) {
+      window.location.href =
+        "mailto:akashs10111212@gmail.com?subject=Hello Akash";
+    } else if (value == 3) {
+      window.open("https://wa.me/7448941714?text=Hi!%20Akash.", "_blank");
+    } else if (value == 4) {
+      window.open(
+        "https://www.linkedin.com/in/akash-s-frontend-react10111212",
+        "_blank"
+      );
+    }
+  };
+
   return (
     <Box
       sx={{ borderTop: "1px solid #707070", padding: ".5rem 0rem 4rem 0rem" }}
@@ -35,50 +51,71 @@ function Contact() {
           <Box>
             <Box
               component="img"
-              sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
-                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
-              transition:'transform 250ms ease',
-              '&:hover':{
-                transform:'scale(1.1)'
-              }
-             }}
+              onClick={() => clickCall(1)}
+              sx={{
+                cursor: "pointer",
+                height: "100px",
+                width: "auto",
+                filter:
+                  "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
+                transition: "transform 250ms ease",
+                "&:hover": {
+                  transform: "scale(1.1)",
+                },
+              }}
               src={phone}
             />
           </Box>
           <Box>
             <Box
               component="img"
-              sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
-                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
-                transition:'transform 250ms ease',
-                '&:hover':{
-                  transform:'scale(1.1)'
-                } }}
+              onClick={() => clickCall(2)}
+              sx={{
+                cursor: "pointer",
+                height: "100px",
+                width: "auto",
+                filter:
+                  "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
+                transition: "transform 250ms ease",
+                "&:hover": {
+                  transform: "scale(1.1)",
+                },
+              }}
               src={email}
             />
           </Box>
           <Box>
             <Box
               component="img"
-              sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
-                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
-                transition:'transform 250ms ease',
-                '&:hover':{
-                  transform:'scale(1.1)'
-                }
-               }}
+              onClick={() => clickCall(3)}
+              sx={{
+                cursor: "pointer",
+                height: "100px",
+                width: "auto",
+                filter:
+                  "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
+                transition: "transform 250ms ease",
+                "&:hover": {
+                  transform: "scale(1.1)",
+                },
+              }}
               src={whatsApp}
             />
           </Box>
           <Box>
             <Box
               component="img"
-              sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
-                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
-                transition:'transform 250ms ease',
-                '&:hover':{
-                  transform:'scale(1.1)'
-                }
+              onClick={() => clickCall(4)}
+              sx={{
+                cursor: "pointer",
+                height: "100px",
+                width: "auto",
+                filter:
+                  "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
+                transition: "transform 250ms ease",
+                "&:hover": {
+                  transform: "scale(1.1)",
+                },
               }}
               src={linkedIN}
             />
