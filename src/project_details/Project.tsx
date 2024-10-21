@@ -1,3 +1,4 @@
+import React, { forwardRef } from 'react';
 import { Box, Typography } from "@mui/material";
 import EcommerceImg from "../assets/MyProjects/ECommerceWebsite.jpg";
 import BussinessImg from "../assets/MyProjects/BussinessWebsite.jpg";
@@ -5,7 +6,7 @@ import StartupImg from "../assets/MyProjects/StartupWebsite.jpg";
 import PersonalImg from "../assets/MyProjects/PersonalWebsite.jpg";
 import PortfolioImg from "../assets/MyProjects/PortfolioWebsite.jpg";
 
-const Project = () => {
+const Project = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>((props:any, ref:any) => {
   const projectData: any = [
     {
       img: EcommerceImg,
@@ -35,7 +36,7 @@ const Project = () => {
   ];
 
   return (
-    <>
+    <div ref={ref}>
       <Box>
         <Typography
           variant="h3"
@@ -103,7 +104,7 @@ const Project = () => {
           ))}
         </Box>
       </Box>
-    </>
+    </div>
   );
-};
+})
 export default Project;

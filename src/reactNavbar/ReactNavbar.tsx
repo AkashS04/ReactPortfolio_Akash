@@ -1,7 +1,6 @@
 import { Box, Typography, Paper } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import reactLogo from "../assets/react.svg";
-import { useState } from "react";
 const Navtexttheme = createTheme({
   typography: {
     body1: {
@@ -31,13 +30,11 @@ const Navtexttheme = createTheme({
     },
   },
 });
-function ReactNavbar() {
-  // const [navHover, setNavHover] = useState(false);
+function ReactNavbar({onAboutClick, onWhyChooseMeClick, onProjectsClick, onContactClick}:any) {
 
   return (
     <div
-      // onMouseEnter={() => setNavHover(true)}
-      // onMouseLeave={() => setNavHover(false)}
+
       className="reactNavbar-main"
     >
       <Box
@@ -58,6 +55,7 @@ function ReactNavbar() {
         >
           <ThemeProvider theme={Navtexttheme}>
             <Box
+            onClick={onAboutClick}
               sx={{
                 transition: "transform 1s ease",
                 // transform: navHover
@@ -69,7 +67,9 @@ function ReactNavbar() {
                 <Typography variant="body1">About</Typography>
               </Paper>
             </Box>
-            <Box     sx={{
+            <Box    
+             onClick={onWhyChooseMeClick}
+             sx={{
                 transition: "transform 1.3s ease",
                 // transform: navHover
                 //   ? "translate(0px, 20px)"
@@ -79,7 +79,9 @@ function ReactNavbar() {
                 <Typography variant="body1">Why Choose Me</Typography>
               </Paper>
             </Box>
-            <Box     sx={{
+            <Box     
+            onClick={onProjectsClick}
+            sx={{
                 transition: "transform 1.6s ease",
                 // transform: navHover
                 //   ? "translate(0px, 20px)"
@@ -89,7 +91,9 @@ function ReactNavbar() {
                 <Typography variant="body1">Projects</Typography>
               </Paper>
             </Box>
-            <Box     sx={{
+            <Box  
+              onClick={onContactClick}
+               sx={{
                 transition: "transform 1.9s ease",
                 // transform: navHover
                 //   ? "translate(0px, 20px)"

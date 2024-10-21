@@ -1,3 +1,4 @@
+import React, { forwardRef } from 'react';
 import { Box, Typography } from "@mui/material";
 import ProblemSolving from "../assets/skillsIcons/problem-solving.png";
 import TeamPlayer from "../assets/skillsIcons/team.png";
@@ -5,7 +6,7 @@ import ProjectPlaning from "../assets/skillsIcons/project.png";
 import Research from "../assets/skillsIcons/research.png";
 import MultiTasking from "../assets/skillsIcons/multitask.png";
 
-const WhyChooseMe = () => {
+const WhyChooseMe = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>((props:any, ref:any) => {
   const Skillset = [
     {
       skillIcon: ProblemSolving,
@@ -34,7 +35,7 @@ const WhyChooseMe = () => {
     },
   ];
   return (
-    <>
+    <div ref={ref}>
       <Box sx={{ width: "auto" }}>
         <Typography
           variant="h3"
@@ -85,7 +86,7 @@ const WhyChooseMe = () => {
           </Box>
         </Box>
       </Box>
-    </>
+    </div>
   );
-};
+});
 export default WhyChooseMe;

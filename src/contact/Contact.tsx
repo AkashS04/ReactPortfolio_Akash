@@ -1,10 +1,12 @@
+import React, { forwardRef } from 'react';
 import { Box, Typography } from "@mui/material";
 import phone from "../assets/icons/phone-call.png";
 import email from "../assets/icons/email.png";
 import whatsApp from "../assets/icons/whatsapp.png";
 import linkedIN from "../assets/icons/linkedin.png";
 
-function Contact() {
+const Contact = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>((props:any, ref:any) => {
+
   const clickCall = (value: any) => {
     if (value == 1) {
       window.location.href = "tel:+91 7448941714";
@@ -22,7 +24,7 @@ function Contact() {
   };
 
   return (
-    <Box
+    <Box ref={ref}
       sx={{ borderTop: "1px solid #707070", padding: ".5rem 0rem 4rem 0rem" }}
     >
       <Box sx={{ width: "auto", padding: "0rem 4rem" }}>
@@ -124,5 +126,5 @@ function Contact() {
       </Box>
     </Box>
   );
-}
+})
 export default Contact;
