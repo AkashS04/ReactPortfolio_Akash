@@ -45,7 +45,7 @@ function ReactNavbar({onAboutClick, onWhyChooseMeClick, onProjectsClick, onConta
       {/* {navHover && ( */}
         <Box
           sx={{
-            width: "800px",
+            width:'800px',
             display: "flex",
             flexWrap: "wrap",
             justifyContent:'center',

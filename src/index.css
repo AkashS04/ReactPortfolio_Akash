@@ -103,15 +103,25 @@ body {
   .home-title-box{
     top:430px !important;
   }
+  .reactNavbar-main{
+    top:700px !important;
+  }
 }
 @media (min-width:769px) and (max-width:1024px){
   .home-title-box{
-    top:185px !important ;
+    top:165px !important ;
   }
+  .reactNavbar-main{
+    top:330px !important;
+  }
+
 }
 @media (min-width:426px) and (max-width:768px){
   .home-title-box{
     top: 180px !important;
+  }
+  .reactNavbar-main{
+    top:310px !important;
   }
 }
 @media (min-width:326px) and (max-width:425px){
