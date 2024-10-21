@@ -53,10 +53,15 @@ const WhyChooseMe = () => {
                   <Box
                   sx={{
                     width:'40%',
+                    height:'104px',
+                    display: 'flex',
+                    alignItems: 'center' ,
+                    gap: '1rem' ,
                     margin: "1rem",
                     padding:"2rem",
                     backgroundColor: "#35353594",
-                    borderRadius:'1rem'
+                    borderRadius:'1rem',
+                    boxShadow: 'rgba(0, 0, 0, 0.2) 0px 18px 50px -10px'
                   }}
                 >
                   <Box
@@ -65,13 +70,13 @@ const WhyChooseMe = () => {
                 sx={{
                   filter:
                     "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
-                  height: "30px",
+                  height: "60px",
                   width: "auto",
                 }}
               />
               <Box>
-                <Typography variant='h5' sx={{fontFamily:'Raleway-Extralight',color:'#e3e3e3'}}>{skills.title}</Typography>
-                <Typography variant='body1' sx={{fontFamily:'Poppins-Regular',color:'#e3e3e3'}}>{skills.name}</Typography>
+                <Typography variant='h5' align='left' sx={{fontFamily:'Raleway-Extralight',color:'#e3e3e3'}}>{skills.title}</Typography>
+                <Typography variant='body1' align='left' sx={{fontFamily:'Poppins-Regular',color:'#e3e3e3'}}>{skills.name}</Typography>
               </Box>
             </Box>
                 ))

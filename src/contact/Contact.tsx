@@ -36,7 +36,12 @@ function Contact() {
             <Box
               component="img"
               sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
-                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)", }}
+                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
+              transition:'transform 250ms ease',
+              '&:hover':{
+                transform:'scale(1.1)'
+              }
+             }}
               src={phone}
             />
           </Box>
@@ -44,7 +49,11 @@ function Contact() {
             <Box
               component="img"
               sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
-                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)", }}
+                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
+                transition:'transform 250ms ease',
+                '&:hover':{
+                  transform:'scale(1.1)'
+                } }}
               src={email}
             />
           </Box>
@@ -52,7 +61,12 @@ function Contact() {
             <Box
               component="img"
               sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
-                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)", }}
+                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
+                transition:'transform 250ms ease',
+                '&:hover':{
+                  transform:'scale(1.1)'
+                }
+               }}
               src={whatsApp}
             />
           </Box>
@@ -60,7 +74,12 @@ function Contact() {
             <Box
               component="img"
               sx={{ cursor:'pointer', height: "100px", width: "auto",filter:
-                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)", }}
+                "invert(85%) sepia(7%) saturate(26%) hue-rotate(319deg) brightness(101%) contrast(104%)",
+                transition:'transform 250ms ease',
+                '&:hover':{
+                  transform:'scale(1.1)'
+                }
+              }}
               src={linkedIN}
             />
           </Box>

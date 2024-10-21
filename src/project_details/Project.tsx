@@ -73,7 +73,7 @@ const Project = () => {
                   left: "0px",
                   borderRadius: "1rem",
                   backgroundColor: "rgb(0 0 0 / 38%)",
-                  transition: "transform 0.350s ease",
+                  transition: "transform 650ms ease",
                 },
                 "&:hover::after": {
                   transform: "translate(370px, 500px)",
