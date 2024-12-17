@@ -1,43 +1,43 @@
 @font-face {
-  font-family: 'Raleway-Thin';
+  font-family: "Raleway-Thin";
   src: url(./assets/fonts/Raleway-Thin.ttf);
 }
 @font-face {
-  font-family: 'Raleway-Extralight';
+  font-family: "Raleway-Extralight";
   src: url(./assets/fonts/Raleway-ExtraLight.ttf);
 }
 @font-face {
-  font-family: 'Raleway-Regular';
+  font-family: "Raleway-Regular";
   src: url(./assets/fonts/Raleway-Regular.ttf);
 }
 @font-face {
-  font-family: 'Raleway-Medium';
+  font-family: "Raleway-Medium";
   src: url(./assets/fonts/Raleway-Medium.ttf);
 }
 @font-face {
-  font-family: 'Poppins-Regular';
+  font-family: "Poppins-Regular";
   src: url(./assets/fonts/Poppins-Regular.ttf);
 }
 @font-face {
-  font-family: 'Poppins-Medium';
+  font-family: "Poppins-Medium";
   src: url(./assets/fonts/Poppins-Medium.ttf);
 }
 @font-face {
-  font-family: 'Poppins-Semibold';
+  font-family: "Poppins-Semibold";
   src: url(./assets/fonts/Poppins-SemiBold.ttf);
 }
 @font-face {
-  font-family: 'Poppins-Bold';
+  font-family: "Poppins-Bold";
   src: url(./assets/fonts/Poppins-Bold.ttf);
 }
 @font-face {
-  font-family: 'Poppins-Light';
+  font-family: "Poppins-Light";
   src: url(./assets/fonts/Poppins-Light.ttf);
 }
 #root {
   margin: 0;
   padding: 0;
-  width:100% !important;
+  width: 100% !important;
   max-width: 100%;
 }
 body {
@@ -48,8 +48,8 @@ body {
 .swipermain {
   height: 100vh;
 }
-.swipermain::after{
-  content: '';
+.swipermain::after {
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -80,9 +80,9 @@ body {
   height: 60px;
   cursor: pointer;
 } */
-.reactNavbar-main{
+.reactNavbar-main {
   position: absolute;
-  top:365px;
+  top: 365px;
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -93,39 +93,70 @@ body {
   gap: 1rem;
   /* height: 60px; */
 }
+.sidenav-mobile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
 
-@media (min-width:1025px) and (max-width:1440px) {
-  .home-title-box{
-    top:125px !important;
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .home-title-box {
+    top: 125px !important;
+  }
+  .sidenav-mobile {
+    display: none !important;
   }
 }
-@media (min-width:1441px) and (max-width:2560px){
-  .home-title-box{
-    top:430px !important;
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .home-title-box {
+    top: 430px !important;
   }
-  .reactNavbar-main{
-    top:700px !important;
+  .sidenav-mobile {
+    display: none !important;
+  }
+  .reactNavbar-main {
+    top: 700px !important;
   }
 }
-@media (min-width:769px) and (max-width:1024px){
-  .home-title-box{
-    top:165px !important ;
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home-title-box {
+    top: 165px !important ;
   }
-  .reactNavbar-main{
-    top:330px !important;
+  .reactNavbar-main {
+    display: none !important;
   }
-
 }
-@media (min-width:426px) and (max-width:768px){
-  .home-title-box{
+@media (min-width: 426px) and (max-width: 768px) {
+  .home-title-box {
     top: 180px !important;
+    height: 120px !important;
   }
-  .reactNavbar-main{
-    top:310px !important;
+  .titleDiv {
+    height: 260px !important;
+  }
+  .reactNavbar-main {
+    display: none !important;
   }
 }
-@media (min-width:326px) and (max-width:425px){
-  .home-title-box{
-    top:100px !important
+@media (min-width: 326px) and (max-width: 425px) {
+  .home-title-box {
+    top: 100px !important;
+    height: 100px !important;
+  }
+  .titleDiv {
+    height: 240px !important;
+  }
+  .reactNavbar-main {
+    display: none !important;
+  }
+  .swipermain::after{
+    height: 250px;
+  }
+}
+
+@media (max-width: 325px) {
+  .reactNavbar-main {
+    display: none !important;
   }
 }

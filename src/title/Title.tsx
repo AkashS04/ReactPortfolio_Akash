@@ -9,7 +9,7 @@ import slide2 from "../assets/slider_images/slide-2.jpg";
 import slide3 from "../assets/slider_images/slide-3.jpg";
 function Title() {
   return (
-    <>
+    <div className="titleDiv">
       <Swiper
         className="swipermain"
         loop={true}
@@ -61,7 +61,7 @@ function Title() {
           Front-end React Developer
         </Typography>
       </Box>
-    </>
+    </div>
   );
 }
 export default Title;
