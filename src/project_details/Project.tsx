@@ -40,7 +40,12 @@ const Project = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>((props:a
       <Box>
         <Typography
           variant="h3"
-          sx={{ color: "#d52e2e", fontFamily: "Poppins-Bold", mt: "1rem" }}
+          sx={{ color: "#d52e2e", fontFamily: "Poppins-Bold", mt: "1rem",fontSize:{
+            lg: "3rem",
+            md: "2.5rem",
+            sm: "2rem",
+            xs: "1.5rem"
+          }, }}
           gutterBottom
         >
           PROJECTS
@@ -49,21 +54,21 @@ const Project = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>((props:a
           sx={{
             display: "flex",
             flexWrap: "wrap",
-            padding: "2rem 4rem 2rem 4rem",
-            justifyContent: "space-around",
+            padding: {lg:"2rem 4rem 2rem 4rem",md:"2rem 4rem 2rem 4rem",sm:"2rem 2rem"},
+            justifyContent:"space-around"
           }}
         >
           {projectData.map((data: any) => (
             <Box
               sx={{
-                width: "300px",
+                width: {lg:"300px",md:"300px",sm:"300px",xs:"300px"},
                 backgroundColor: "#181818",
                 position: "relative",
                 overflow: "hidden",
-                padding: "2rem",
+                padding: {lg:"2rem",md:"2rem",sm:"1rem",xs:"1rem"},
                 border: "1px solid #121212",
                 borderRadius: "1rem",
-                marginBottom: "2rem",
+                margin: {lg:"0rem 0rem 2rem 0rem",md:"0rem 0rem 2rem 0rem",sm:"0rem 0rem 2rem 0rem",xs:"0rem 1rem 1rem 1rem"},
                 cursor: "default",
                 "::after": {
                   content: '""',
@@ -83,19 +88,25 @@ const Project = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>((props:a
             >
               <Box
                 component="img"
-                sx={{ height: "auto", width: "300px" }}
+                sx={{ height:{ lg:"auto",md:"auto",sm:"200px",xs:"200px"}, 
+                width:{lg: "300px",md:"300px",sm:"300px",xs:"300px"} }}
                 src={data.img}
               />
               <Typography
                 variant="h5"
-                sx={{ fontFamily: "Raleway-Extralight", color: "#e3e3e3" }}
+                sx={{ fontFamily: "Raleway-Extralight", color: "#e3e3e3",fontSize:{lg:'1.5rem',md:'1.5rem',sm:'1.3rem',xs:'1rem'} }}
                 gutterBottom
               >
                 {data.title}
               </Typography>
               <Typography
                 variant="body1"
-                sx={{ fontFamily: "Raleway-Thin", color: "#e3e3e3" }}
+                sx={{ fontFamily: "Raleway-Thin", color: "#e3e3e3",fontSize:{
+                  lg:'1rem',
+                  md:'1rem',
+                  sm:'1rem',
+                  xs:'0.8rem'
+                } }}
                 gutterBottom
               >
                 {data.content}

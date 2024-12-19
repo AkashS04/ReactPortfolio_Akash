@@ -126,14 +126,18 @@ body {
   .reactNavbar-main {
     display: none !important;
   }
+
+  .swipermain {
+    height: 80% !important;
+  }
 }
 @media (min-width: 426px) and (max-width: 768px) {
   .home-title-box {
     top: 180px !important;
-    height: 120px !important;
   }
-  .titleDiv {
-    height: 260px !important;
+
+  .swipermain  {
+    height: 50% !important;
   }
   .reactNavbar-main {
     display: none !important;
@@ -142,21 +146,25 @@ body {
 @media (min-width: 326px) and (max-width: 425px) {
   .home-title-box {
     top: 100px !important;
-    height: 100px !important;
   }
-  .titleDiv {
-    height: 240px !important;
+
+  .swipermain  {
+    height: 40% !important;
   }
   .reactNavbar-main {
     display: none !important;
-  }
-  .swipermain::after{
-    height: 250px;
   }
 }
 
 @media (max-width: 325px) {
+
+  .home-title-box {
+    top: 100px !important;
+  }
   .reactNavbar-main {
     display: none !important;
+  }
+  .swipermain{
+    height: 40% !important;
   }
 }

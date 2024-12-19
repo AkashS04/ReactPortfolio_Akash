@@ -10,6 +10,7 @@ import slide3 from "../assets/slider_images/slide-3.jpg";
 function Title() {
   return (
     <div className="titleDiv">
+        <div className="">
       <Swiper
         className="swipermain"
         loop={true}
@@ -62,6 +63,8 @@ function Title() {
         </Typography>
       </Box>
     </div>
+    </div>
+  
   );
 }
 export default Title;
