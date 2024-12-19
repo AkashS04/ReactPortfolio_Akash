@@ -6,7 +6,7 @@ import whatsApp from "../assets/icons/whatsapp.png";
 import linkedIN from "../assets/icons/linkedin.png";
 
 const Contact = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>(
-  (props: any, ref: any) => {
+  ( ref: any) => {
     const clickCall = (value: any) => {
       if (value == 1) {
         window.location.href = "tel:+91 7448941714";

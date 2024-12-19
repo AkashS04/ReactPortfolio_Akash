@@ -6,7 +6,7 @@ import StartupImg from "../assets/MyProjects/StartupWebsite.jpg";
 import PersonalImg from "../assets/MyProjects/PersonalWebsite.jpg";
 import PortfolioImg from "../assets/MyProjects/PortfolioWebsite.jpg";
 
-const Project = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>((props:any, ref:any) => {
+const Project = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>(( ref:any) => {
   const projectData: any = [
     {
       img: EcommerceImg,

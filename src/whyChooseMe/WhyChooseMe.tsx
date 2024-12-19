@@ -6,7 +6,7 @@ import ProjectPlaning from "../assets/skillsIcons/project.png";
 import Research from "../assets/skillsIcons/research.png";
 import MultiTasking from "../assets/skillsIcons/multitask.png";
 
-const WhyChooseMe = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>((props:any, ref:any) => {
+const WhyChooseMe = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>(( ref:any) => {
   const Skillset = [
     {
       skillIcon: ProblemSolving,

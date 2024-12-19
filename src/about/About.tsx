@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import { Box, Typography } from "@mui/material";
 import Skills from "./Skills";
 
-const About = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>((props:any, ref:any) => {
+const About = forwardRef<HTMLDivElement, React.PropsWithChildren<{}>>(( ref:any) => {
   return (
     <div ref={ref}>
       <Box sx={{ width: "100%" }}>
